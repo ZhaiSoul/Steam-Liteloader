@@ -14,10 +14,50 @@ window.onload = (function () {
 
             window.Liteloader.Plugins = new Array();
             for (let x of liteloaderConfig.plugins) {
-                console.log(x);
                 await loadPluginInfo(x);
             }
 
+
+            const handler = {
+                get(target, prop, receiver) {
+                    const AllCaller = getCaller().slice(-3);
+
+                    //const caller = AllCaller[AllCaller.length - 1];
+                    //console.log(AllCaller);
+
+                    if (AllCaller.some(x => x.includes("https://steamloopback.host/"))) {
+                        if (AllCaller.some(x => x.includes("/liteloader/plugins"))) {
+                            console.log('Some plugin wanna use Steam API, but it was refused.', AllCaller);
+                            return null;
+                        }
+                    } else {
+                        if (!liteloaderConfig.debug) {
+                            console.log("Some unknow code use Steam API, it's not safety, it was refused.\nIf you are developer, change liteloader/config.json, set 'debug' to true.", AllCaller);
+                            return null;
+                        }
+                    }
+
+                    return Reflect.get(target, prop, receiver);
+                }
+            };
+
+            function getCaller() {
+                const error = new Error();
+                const stack = error.stack;
+                const line = stack.split('\n');
+                return line;
+            }
+
+            const SteamClientTemp = SteamClient;
+            SteamClient = new Proxy(SteamClientTemp, handler);
+
+            const MainWindowBrowserManagerTemp = MainWindowBrowserManager;
+            MainWindowBrowserManager = new Proxy(MainWindowBrowserManagerTemp, handler);
+
+            const SteamUIStoreTemp = SteamUIStore;
+            SteamUIStore = new Proxy(SteamUIStoreTemp, handler);
+
+            liteloaderDebugInfo("Protect Steam API done!");
 
             liteloaderDebugInfo("Start inject plugins to Share");
 
