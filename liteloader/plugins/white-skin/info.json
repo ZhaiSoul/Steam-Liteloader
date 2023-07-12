@@ -1,0 +1,15 @@
+{
+    "name": "白色背景",
+    "packName": "white-skin",
+    "version": "v1.0.0",
+    "authors": ["ZhaiSoul"],
+    "webSite": "https://github.com/ZhaiSoul",
+    "type": "theme",
+    "injectors": {
+        "mainWindow": {
+            "css": [
+                "main.css"
+            ]
+        }
+    }
+}

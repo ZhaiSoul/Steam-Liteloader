@@ -1,0 +1,7 @@
+{
+    "enable": true,
+    "debug": false,
+    "plugins": [
+        "translate-cn", "white-skin"
+    ]
+}

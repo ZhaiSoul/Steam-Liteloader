@@ -1,0 +1,52 @@
+.steamdesktop_TopBar_3Z7VQ, .steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s, .bottombar_BottomBar_3vCzS {
+    background-color: #eaeaea !important;
+}
+
+.supernav_SuperNavMenu_7AlhC .supernav_MenuButton_19axK {
+    color: white;
+}
+
+.steamdesktop_LocalContentContainer_RGNMW .steamdesktop_URLBarReplacement_2Cmrn {
+    background: #eaeaea;
+}
+
+.gamelistbar_Container_3x1Hk {
+    background-image: linear-gradient(to bottom, #eaeaea 0%, #eaeaea 20%);
+}
+
+.gamelistsectionheader_Container_2sYIg {
+    background: linear-gradient(to right, #c5c5c5 40%, rgba(62, 78, 105, 0) 100%);
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
+    color: #5f5f5f;
+}
+
+.libraryhome_Container_2gSXC {
+    background: white;
+}
+
+.libraryhome_UpdatesContainer_17uEB {
+    background: radial-gradient(100% 100% at 33% 45%, #eaeaea 30%, #afafaf 100%);
+}
+
+.libraryhomenewupdates_Event_Title_1Gu1U div.libraryhomenewupdates_PartnerEventRowCapsule_TextTitle_DVBcp {
+    color: rgb(0 0 0 / 0.9);
+}
+
+.libraryhomenewupdates_GameIconAndName_3_xMy .libraryhomenewupdates_GameName_28Iqr {
+    color: black;
+}
+
+.libraryhomenewupdates_EventTime_2rlKq, .pageablecontainer_HeaderPageControls_2pAbU {
+    color: black;
+}
+
+.libraryhome_LibraryHome_3Sb2o {
+    background-image: linear-gradient(to bottom, #e6e6e6 0%, #ffffff 20%);
+}
+
+.libraryhomerecentgames_AddedDate_1ANYF {
+    color: black !important;
+}
+
