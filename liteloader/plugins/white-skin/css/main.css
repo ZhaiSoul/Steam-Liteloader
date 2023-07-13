@@ -3,7 +3,7 @@
 }
 
 .supernav_SuperNavMenu_7AlhC .supernav_MenuButton_19axK {
-    color: white;
+    color: #404040;
 }
 
 .steamdesktop_LocalContentContainer_RGNMW .steamdesktop_URLBarReplacement_2Cmrn {
@@ -15,7 +15,7 @@
 }
 
 .gamelistsectionheader_Container_2sYIg {
-    background: linear-gradient(to right, #c5c5c5 40%, rgba(62, 78, 105, 0) 100%);
+    background: linear-gradient(to right, #4a4a4a 40%, rgba(62, 78, 105, 0) 100%);
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr {
@@ -50,3 +50,94 @@
     color: black !important;
 }
 
+.gamelistbar_GameListHomeAndSearch_2TKEa {
+    background-color: #ffffff;
+}
+
+.gamelisthome_Bar_3pSPl {
+    background-color: #ffffff !important;
+}
+
+.gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
+    background-color: #ffffff !important;
+}
+
+.gamelisthome_Selected_eNLOx .gamelisthome_Label_3O48L {
+    color: #404040 !important;
+}
+
+.gamelisthome_Bar_3pSPl .gamelisthome_Icon_1ooRO {
+    fill: rgb(0 0 0 / 0.1) !important;
+}
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
+    color: #0c0c0c;
+    background-color: #ffffff;
+}
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
+    color: #4d4d4d;
+    background-color: #e6e6e6;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
+    background-color: rgb(255 255 255 / 60%);
+    color: black;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:hover {
+    background-color: #e6e6e6;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Installed_2ws8D {
+    color: #0c0c0c !important;
+}
+
+.appdetails_ScrollContainer_2l416 {
+    background-color: #e4e4e4;
+}
+
+.appdetails_Glassy_3Fmxx.appdetails_ScrollContainer_2l416 {
+    background-image: radial-gradient(100% 100% at 45% 35%, #ffffff 0%, #fdfdfd 100%);
+}
+
+.downloadgraph_GraphAndStats_3KDkL {
+    background-color: #e0e0e0;
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Status_3BdWq {
+    color: #0c0c0c;
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
+    color: #0c0c0c;
+}
+
+.downloads_DownloadsPage_1bq4x {
+    background: radial-gradient(farthest-corner at 0px 0px, #dcdcdc 0%, #d4d4d4 90%);
+}
+
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+    background-color: #cecece;
+}
+
+.downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+    color: #0c0c0c;
+}
+
+.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj.downloads_InProgress_3Wavc {
+    color: #4c4c4c;
+}
+
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
+    background-color: rgb(226 226 226 / 40%);
+    border: 1px solid #a2a2a2;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY {
+    background-color: rgb(185 185 185 / 60%);
+}
+
+.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
+    background: linear-gradient(to bottom, rgba(39, 44, 53, 0.1) 0%, rgb(158 158 158 / 70%) 82px, rgba(39, 44, 53, 0.3) 80%, rgba(39, 44, 53, 0) 100%);
+}
